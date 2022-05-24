@@ -1,0 +1,145 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ],
+            "responses": [ "Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?" ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye" ],
+            "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon." ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+        },
+        {
+            "tag": "Video game",
+            "patterns": [ "What is a video game?", "What is video gaming?", "What is a videogame?" ],
+            "responses": [ "A video game is a game played by electronically manipulating images produced by a computer program on a television screen or other display screen." ]
+        },
+        {
+            "tag": "Zelda: Breath of the Wild",
+            "patterns": [ "What is Zelda: Breath of the Wild", "what is BOTW?" ],
+            "responses": [ "Zelda: Breath of the Wild is a video game produced by Nintendo. An entry in the longrunning The Legend of Zelda series, it was released for the Nintendo Switch and Wii U consoles on March 3, 2017. Breath of the Wild is set at the end of the series' timeline; the player controls Link, who awakens from a hundred-year slumber to defeat Calamity Ganon before it can destroy the kingdom of Hyrule. Similarly to the original Legend of Zelda (1986), players are given little instruction and can explore the open world freely. Tasks include collecting multipurpose items to aid in objectives or solving puzzles and side quests for rewards. The world is unstructured and designed to reward experimentation, and the story can be completed in a nonlinear fashion." ]
+        },
+        {
+            "tag": "Zelda",
+            "patterns": [ "What is Zelda?", "Who is Zelda?", "Who is Zelda in Zelda: Breath of the Wild?", "Who is Princess Zelda?" ],
+            "responses": [ "Princess Zelda is an ancestor of the Royal Family of Hyrule and is said to be the mortal incarnation of the Goddess Hylia. Zelda has spent 100 years inside Hyrule Castle, as she restrains Calamity Ganon from escaping and destroying Hyrule. During the game, Princess Zelda and Link work together to take on Calamity Ganon in a bid to restore Hyrule to its former glory." ]
+        },
+        {
+            "tag": "Link",
+            "patterns": [ "What is Link?", "Who is Link?", "What charcter do you play in BOTW?", "Who is the main character?" ],
+            "responses": [ "Link is the centre of everything in Nintendos The Legend of Zelda: Breath of the Wild. Hes who you play as in the game, hes the one leading you on a great adventure, and hes overall a pretty big deal in the Zelda universe. Link is a Knight of Hyrule and in The Legend of Zelda: Breath of the Wild, he begins the game by awakening from a deep sleep in the Shrine of Resurrection. From there, he is led by a mysterious voice to pick up the Sheikah Slate and begin his journey on the outside world." ]
+        },
+        {
+            "tag": "Hyrule",
+            "patterns": [ "What is Hyrule?", "explain Hyrule?", "What is the Kingdom of Hyrule?" ],
+            "responses": [ "Hyrule is the kingdom that serves as the iconic setting for a majority of the Zelda games. It was once ruled by the goddess Hylia and is know run by the Royal Family of Hyrule." ]
+        },
+        {
+            "tag": "Impa",
+            "patterns": [ "What is Impa?", "explain Impa?", "Who is Impa?", "What is Impas role in BOTW?" ],
+            "responses": [ "Impa presides as the elder of Kakariko Village in Breath of the Wild, awaiting the time for Link to awaken from his Slumber of Restoration. When Link arrives at her House, Impa remarks on how long it has been and asks if he remembers her. When Link does not remember her, she helps him find his memories and keeps him on track to save Zelda from Calamity Ganon." ]
+        },
+        {
+            "tag": "Calamity Ganon",
+            "patterns": [ "what is Calamity Ganon?", "Ganon?", "Who is Ganon?" ],
+            "responses": [ "Ganon is the great king of evil and is a recurring major antagonist in the Zelda series. Calamity Ganon appeared ten thousand years ago to ravage the world of Hyrule and created the event known as the Great Calamity. With the help of the Sheikah, the divine beasts, Zelda was able to seal him away. Zelda seal begins to weaken and she wakes Link up to end Calamity Ganon. Calamity Ganon is the final boss to beat in BOTW. " ]
+        },
+        {
+            "tag": "Divine Beast",
+            "patterns": [ "what are Divine Beasts?", "Divine Beasts?", "Who are the divine beasts?", "How many divine beasts are there?", "What are the divine beasts purpose?" ],
+            "responses": [ "There are four Divine Beasts that are mechanical animals built by the ancient Sheikah in order to aid the princess and the hero of legend to seal away Calamity Ganon ten thousand years ago. The four beasts are: he elephant, Ruta, the salamander, Rudania, the eagle, Medoh and the camel, Naboris. They each have a champion to control their powers. They are used to help stop Calamity Ganon when Link awakens." ]
+        },
+        {
+            "tag": "Hero of Legend",
+            "patterns": [ "what is the Hero of Legend?", "Hero of Legend?", "Who is the hero of legend?" ],
+            "responses": [ "The hero of legend is an expert swordsmand and royal knight. Link is the hero of legend. He is capable of weilding the Sheikah technology." ]
+        },
+        {
+            "tag": "Sheikah",
+            "patterns": [ "What is the Sheikah?", "Who are the Sheikah?", "Sheikah?" ],
+            "responses": [ "They are a race of humanoids in the Legend of Zelda series. They are a secretive trive who were chosen guardians of the Goddess Hylia to protect her rencarnation, Zelda. They are an advanced civilization whose power and wisdom had saved the land of Hyrule many times. In BOTW, there are only remnants of them and their technology after the Great Calamity happened. Link is able to use their technology to gain strength and wisdom to fight Calamity Ganon." ]
+        },
+        {
+            "tag": "Master Sword",
+            "patterns": [ "Master Sword?", "What is the Master Sword?", "Who can use the master sword?" ],
+            "responses": [ "This sword is bound to the hero of legend and was weilded by Link during the great calamity. Link is the only one who can weild it. Link has to gain great strength after his resurrection to be able to weild it again. The sword can be found in Korok Forest." ]
+        },
+        {
+            "tag": "Sheikah Slate",
+            "patterns": [ "What is the Sheikah Slate?", "explain Sheikah Slate?", "Who uses the Sheikah Slate?", "slate?" ],
+            "responses": [ "The Sheikah Slate is an object created by the Sheikah to control different parts of their technology. Zelda tells Link to use the Sheikah Slate at the shrine of resurection to aid him in his journey to stop Calamity Ganon. The slate functions as a map and has the ability to use runes which include Remote Bomb, Magnesis, Stasis, and Cryonis. " ]
+        },
+        {
+            "tag": "Shrines",
+            "patterns": [ "What are shrines?", "What is the purpose of Shrines?", "How do you find Shrines?" ],
+            "responses": [ "Shrines are found over all of Hyrule and were built by the Sheikah. The sheikah slate is required to gain access to the shrines. The shrines are puzzels that Link has to solve in order to collect items and spirit orbs." ]
+        },
+        {
+            "tag": "Korok Forest",
+            "patterns": [ "What is Korok Forest?", "Why do you need to go to Korok Forest?", "What is the importance of Korok Forest?", "Where is the Korok Forest?" ],
+            "responses": [ "The Korok forest is a woodland region in the center of the Hyrule Forest. This forest is home to spirits, Koroks, and the master sword. Link has to go to the Korok Forest to get the master sword in order to defeat Calamity Ganon." ]
+        },
+        {
+            "tag": "Shrine of Resurrection",
+            "patterns": [ "What is the Shrine of Resurrection?", "Who is at the Shrine of Resurrection?", "explain Shrine of Resurrection?" ],
+            "responses": [ "The Shrine of Resurrection is where BOTW starts. Link awakens from his 100 year slumber here without his memories. Link was placed here to recover after the Great Calamity so that he might be able to fight Calamity Ganon another day." ]
+        },
+        {
+            "tag": "Items",
+            "patterns": [ "What are items?", "What kind of items do you get in BOTW?", "items?" ],
+            "responses": [ "Items can be almost anything that is collectable in BOTW. They can range from stones, weapons, powers, to ingredients for food. " ]
+        },
+        {
+            "tag": "Spirit Orb",
+            "patterns": [ "What is a Spriti Orb?", "Sprit Orbs?", "Why do you need Spirit Orbs?" ],
+            "responses": [ "Sprit orbs are items that are collected after completing a shrine. These orbs are a symbol of courage given by the Sheikah Monks. Once four orbs have been collected, they can be used to increase Links health or stamina." ]
+        },
+        {
+            "tag": "Korok seed",
+            "patterns": [ "what is Korok?", "What are Korok?", "Where do I find Korok?", "What is a Korok seed?", "What is the purpose of a korok seed?" ],
+            "responses": [ "Korok seeds are seeds that are given by Koroks. Koroks are a woodland race who where leaf masks over their faces in the Legnend of Zelda series. By collecting Korok seeds, you are able to increase Link's weapon inventory. You need to find 441 seeds to max out the inventory." ]
+        },
+        {
+            "tag": "Urbosa",
+            "patterns": [ "who is Urbosa?", "Urbosa", "What role does Urbosa play in BOTW?", "Is Urbosa a champion?" ],
+            "responses": [ "Urbosa is a champion who pilots Divine Beast Naboris. She is the queen of the Gerudo nation. She is also capable of manipulating lightning, which is called Urbosa's Fury. Urbosa helps Link by giving him her ability to manipulate lightning in order to help him defeat Calamity Ganon. She also weilds Naboris to help weaken Calmity Ganon." ]
+        },
+        {
+            "tag": "Mipha",
+            "patterns": [ "Who is Mipha?", "Mipha", "What role does Mipha play in BOTW?", "Is Mipha a champion?" ],
+            "responses": [ "Mipha is a champion who pilots Divine Beast Ruta. She is the princess of the Zora nation. She is also capable of healing, which is called Mipha's Grace. Mipha helps Link by giving him her ability to heal in order to help him defeat Calamity Ganon. She also weilds Ruta to help weaken Calmity Ganon." ]
+        },
+	    {
+            "tag": "Revali",
+            "patterns": [ "Who is Revali?", "Revali", "What role does Revali play in BOTW?", "Is Revali a champion?" ],
+            "responses": [ "Revali is a champion who pilots Divine Beast Rito. He is a prominent figure in the Rito nation. He is also capable of manipulating wind, which is called Revalis Gale. Revali helps Link by giving him his ability to manipulate wind in order to help him defeat Calamity Ganon. He also weilds Medoh to help weaken Calmity Ganon." ]
+        },
+        {
+            "tag": "Daruk",
+            "patterns": [ "Who is Daruk?", "Daruk", "What role does Daruk play in BOTW?", "Is Daruk a champion?" ],
+            "responses": [ "Daruk is a champion who pilots Divine Beast Rudania. He is a prominent figure in the Goron nation. He is also capable of protecting himself, which is called Daruks Protection. Daruk helps Link by giving him his ability to protect himself in order to help him defeat Calamity Ganon. He also weilds Rudania to help weaken Calmity Ganon." ]
+        },
+        {
+            "tag": "Monsters",
+            "patterns": [ "Are there monsters to fight in BOTW?", "monsters?", "enemies?", "Where are the monsters?" ],
+            "responses": [ "There are a ton of monsters all over the BOTW map. They come in all shapes and strengths so be careful wandering around because you never know where they will show up and how easy they will be to beat!" ]
+        },
+        {
+            "tag": "Hearts",
+            "patterns": [ "What are hearts?", "heart containers?", "Why do you need hearts?"],
+            "responses": [ "Hearts represent how much health Link has at one time. Link can obtain up to 30 hearts. You can increase Links hearts by collecting spirit orbs from different shrines. Link will require more hearts as the game progresses in order to stay alive as monsters/quests become harder." ]
+        },
+        {
+            "tag": "Champion",
+            "patterns": [ "What is a champion?", "Who is a champion?", "What do chamipons do?", "How many champions are there?"],
+            "responses": [ "A champion is a chosen individual who joins a team that is meant to battle against Calamity Ganon. There are four champions and each champion is capable of contorling a divine beast. The four champions are Urbosa, Mipha, Revali, and Daruk."]
+        }
+    ]
+}
