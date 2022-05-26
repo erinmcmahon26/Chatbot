@@ -27,9 +27,9 @@
             "responses": [ "Zelda: Breath of the Wild is a video game produced by Nintendo. It is one of the games in The Legend of Zelda video game series, it came out in 2017. It is an open world game where once again Link is tasked with saving the Kingdom of Hyrule from Ganon and saving Princess Zelda at the same time." ]
         },
         {
-            "tag": "Purpose",
-            "patterns": [ "What is the plot?", "What is the purpose of the game?", "Who is the game about?", "Summary" ],
-            "responses": [ "Breath of the Wild is set at the end of the series' timeline; the player controls Link, who awakens from a hundred-year slumber to defeat Calamity Ganon before it can destroy the kingdom of Hyrule and save Princess Zelda. Similarly, to the original Legend of Zelda (1986), players are given little instruction and can explore the open world freely. There are multiple side quests that the players can participate in as well as the main quest." ]
+            "tag": "Plot",
+            "patterns": [ "What is the plot?", "What is the end goal?", "What is the game about?", "Plot" ],
+            "responses": [ "The main plot is that Breath of the Wild is set at the end of the series' timeline; the player controls Link, who awakens from a hundred-year slumber to defeat Calamity Ganon before it can destroy the kingdom of Hyrule and save Princess Zelda. Similarly, to the original Legend of Zelda (1986), players are given little instruction and can explore the open world freely. There are multiple side quests that the players can participate in as well as the main quest." ]
         },
         {
             "tag": "Zelda",
